@@ -1,0 +1,15 @@
+cabal-version:       3.8
+name:                disk-usage
+version:             0.1.0.0
+build-type:          Simple
+license:             MIT
+license-file:        NONE
+author:              Alina
+maintainer:          ARMinnibaeva@stud.kpfu.ru
+category:            Console
+
+executable du
+    main-is:  Main.hs
+    build-depends:  base, directory, mtl, filepath
+    hs-source-dirs:  app
+    default-language:  Haskell2010

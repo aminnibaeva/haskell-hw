@@ -1,0 +1,1 @@
+runghc -isrc app/Main.hs -h -d 2 -v E:\\dir
